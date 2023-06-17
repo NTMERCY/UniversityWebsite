@@ -1,0 +1,96 @@
+.nav1 {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.438), rgba(4, 9, 30, 0.438)), url('../image/kampus-itb.png');
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo1 {
+    color: white;
+}
+
+.text-box>h3 {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 70px;
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 0px 0;
+    margin-bottom: 70px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.about-us img {
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-about {
+    padding: 35px;
+}
+
+.content-about h2 {
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+}
+
+.content-about p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.selengkapnya-btn {
+    display: inline-block;
+    color: #fff;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 19px;
+}
+
+.selengkapnya-btn:hover {
+    background-color: #006dd6;
+}
+
+.about-us-1 {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 0px 0;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-us-1 img {
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
